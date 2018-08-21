@@ -1,0 +1,72 @@
+body {
+	margin: 0;
+	background-color: purple;
+}
+h1	{
+	text-align: center;
+	color:red;
+	margin: 0;
+	padding: 2.5% 0;
+}
+#top {
+	background-color: yellow;
+	margin:0;
+}
+#button {
+	background-color: blue;
+}
+#container {
+	max-width: 400px;
+	margin: 0 auto;
+	margin-top: 3.5%;
+}
+.squares {
+	width: 10.5%;
+	float: left;
+	padding-bottom: 10.5%;
+	margin: 0.625%;
+	border-radius: 15px;
+	transition: background 0.5s;
+}
+#again {
+	float: center;
+	margin-left: 47%;
+	background-color: white;
+	color: blue;
+	border-radius: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.black {
+	background-color: black;
+}
+.g1 {
+	background-image: url("bubbles/g1.jpg");
+	background-size:cover;
+}
+.g2 {
+	background-image: url("bubbles/g2.jpg");
+	background-size:cover;
+}
+.g3 {
+	background-image: url("bubbles/g3.jpg");
+	background-size:cover;
+}
+.r1 {
+	background-image: url("bubbles/r1.jpg");
+	background-size:cover;
+}
+.r2 {
+	background-image: url("bubbles/r2.jpg");
+	background-size:cover;
+}
+.r3 {
+	background-image: url("bubbles/r3.jpg");
+	background-size:cover;
+}
+.g {
+	border: 1px solid green;
+}
+.r {
+	border : 1px solid red;
+}
