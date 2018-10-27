@@ -74,6 +74,14 @@ $(".squares").on("click", function(){
 			threer(x);
 			turn=!turn;
 		}
+		else if($(this).hasClass("r1"))
+		{
+			this.classList.remove("r1");
+			this.classList.add("black");
+			var x=$(".squares").index($(this));
+			threer(x);
+			turn=!turn;
+		}
 		change();
 	}
 
